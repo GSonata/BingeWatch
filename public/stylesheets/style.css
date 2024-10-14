@@ -12,6 +12,44 @@ body {
   height: 100vh;
 }
 
+.containerLOGIN{
+  min-height: 100vh;
+  background-color: #353535;
+  color: white;
+  padding-left: 2rem;
+
+  .returnHome{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    justify-content: left;
+    gap: 1rem;
+    }
+  }
+
+  .loginContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 40%;
+    justify-content: center;
+    background-color: #464646;
+    border: 2px solid white;
+  }
+
+.helpButton{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+
 footer {
   display: flex;
   flex-direction: row;
