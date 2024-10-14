@@ -1,124 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="images/logo bw-blanco.png">
-    <link rel="stylesheet" href="stylesheets/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="images/logo bw-blanco.png" />
+    <link rel="stylesheet" href="stylesheets/style.css" />
     <title>BingeWatch</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="headerMain">
-            <h2>Binge<span style="color: #6FA8DC;">Watch</span></h2>
-            <a href="">Iniciar Sesión</a>
-        </div>
+      <div class="headerMain">
+        <h2>Binge<span style="color: #6fa8dc">Watch</span></h2>
+        <a href="login.html">Iniciar Sesión</a>
+      </div>
     </header>
 
     <section class="callAction">
-        <div class="background">
-            <div class="overlay">
-                <div class="callContent">
-                    <div class="ccImage">
-                        <img src="images/logo bw-blanco.png">
-                    </div>
-                    <div class="ccText">
-                        <h2>Binge<span style="color: #6FA8DC;">Watch</span></h2>
-                        <h3>Un lugar, todas tus peliculas</h3>
-                        <p>Empieza a construir tu colección de peliculas, todo
-                            en un mismo lugar
-                        </p>
-                        <a href="#" class="ccButton">Iniciar Sesion</a>
-                    </div>
-                </div>
+      <div class="background">
+        <video autoplay muted loop>
+          <source src="images/recursos/montajePeliculas.mp4" type="video/mp4">
+        </video>
+        <div class="overlay">
+          <div class="callContent">
+            <div class="ccImage">
+              <img src="images/logo bw-blanco.png" />
             </div>
+            <div class="ccText">
+              <h2>Binge<span style="color: #6fa8dc">Watch</span></h2>
+              <h3>Un lugar, todas tus peliculas</h3>
+              <p>
+                Empieza a construir tu colección de peliculas, todo en un mismo
+                lugar
+              </p>
+              <a href="#" class="ccButton">Registrarse</a>
+
+            </div>
+          </div>
+          <figure class="arrowCTA"><a href="#introduction"><img src="images/Iconos/flecha.svg" alt="arrow" width="50" height="50"></a></figure>
         </div>
+      </div>
     </section>
 
-    <section class="introduction">
-        <div class="introText">
-            <div class="introColumns">
-                <div class="elementoColumna">
-                    <div class="introHeader">
-                        <img src="images/Iconos/pelicula.png" alt="peliculas">
-                        <p>¿Qué es BingeWatch?</p>
-                    </div>
-                    <p class="contenidoInterno">¡Descubre el placer de coleccionar películas como nunca antes! BingeWatch es una plataforma diseñado para catalogar, organizar y
-                        disfrutar de un la base de datos de todas tus peliculas</p>
-                </div>
-                <div class="elementoColumna">
-                    <div class="introHeader">
-                        <img src="images/Iconos/publicalo.png" alt="notas">
-                        <p>¿Como funciona BingeWatch?</p>
-                    </div>
-                    <p class="contenidoInterno">Agrega títulos, organízalos por género, año o director, y guarda notas
-                        sobre cada uno. También podrás marcar tus películas favoritas y llevar un registro de futuras
-                        adquisiciones.</p>
-                </div>
-                <div class="elementoColumna">
-                    <div class="introHeader">
-                        <img src="images/Iconos/apreton-de-manos.png" alt="notas">
-                        <p>¿Por qué BingeWatch?</p>
-                    </div>
-
-                    <p class="contenidoInterno">Somos una plataforma desarrollado por y para cinefilos,
-                        comprendemos la importancia del orden y la claridad. Valoramos la comunidad por
-                        encima de todo.</p>
-                </div>
+    <section class="introduction" id="introduction">
+      <div class="introText">
+        <div class="introColumns">
+          <div class="elementoColumna">
+            <div class="introHeader">
+              <img src="images/Iconos/pelicula.png" alt="peliculas" />
+              <p>¿Qué es BingeWatch?</p>
             </div>
-        </div>
-    </section>
+            <p class="contenidoInterno">
+              ¡Descubre el placer de coleccionar películas como nunca antes!
+              BingeWatch es una plataforma diseñado para catalogar, organizar y
+              disfrutar de un la base de datos de todas tus peliculas
+            </p>
+          </div>
+          <div class="elementoColumna">
+            <div class="introHeader">
+              <img src="images/Iconos/publicalo.png" alt="notas" />
+              <p>¿Como funciona BingeWatch?</p>
+            </div>
+            <p class="contenidoInterno">
+              Agrega títulos, organízalos por género, año o director, y guarda
+              notas sobre cada uno. También podrás marcar tus películas
+              favoritas y llevar un registro de futuras adquisiciones.
+            </p>
+          </div>
+          <div class="elementoColumna">
+            <div class="introHeader">
+              <img src="images/Iconos/apreton-de-manos.png" alt="notas" />
+              <p>¿Por qué BingeWatch?</p>
+            </div>
 
+            <p class="contenidoInterno">
+              Somos una plataforma desarrollado por y para cinefilos,
+              comprendemos la importancia del orden y la claridad. Valoramos la
+              comunidad por encima de todo.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section class="lastMovies">
-        <div>
-            <h1>Las ultimas novedades</h1>
-            <div class="movieGallery">
-                <figure>
-                    <img src="images/recursos/joker2.png" alt="joker2">
-                    <figcaption>Joker, Folie à Deux <br> <span style="color: #6FA8DC;">(2024)</span></figcaption>
-                </figure>
-                <div class="vl"></div>
-                <figure>
-                    <img src="images/recursos/megalopolis.png" alt="joker2">
-                    <figcaption>Megalopolis<br> <span style="color: #6FA8DC;">(2024)</span></figcaption>
-                </figure>
-                <div class="vl"></div>
-                <figure>
-                    <img src="images/recursos/ratatouille.png" alt="joker2">
-                    <figcaption>Ratatouille<br> <span style="color: #6FA8DC;">(2007)</span></figcaption>
-                </figure>
-                <div class="vl"></div>
-                <figure>
-                    <img src="images/recursos/transformers.png" alt="joker2">
-                    <figcaption>Transformers ONE<br> <span style="color: #6FA8DC;">(2024)</span></figcaption>
-                </figure>
-                <div class="vl"></div>
-                <figure>
-                    <img src="images/recursos/wildrobot.png" alt="joker2">
-                    <figcaption>The Wild Robot<br> <span style="color: #6FA8DC;">(2024)</span></figcaption>
-                </figure>
-            </div>
+      <div>
+        <h1>Las ultimas novedades</h1>
+        <div class="movieGallery">
+          <figure>
+            <img src="images/recursos/joker2.png" alt="joker2" />
+            <figcaption>
+              Joker, Folie à Deux <br />
+              <span style="color: #6fa8dc">(2024)</span>
+            </figcaption>
+          </figure>
+          <div class="vl"></div>
+          <figure>
+            <img src="images/recursos/megalopolis.png" alt="joker2" />
+            <figcaption>
+              Megalopolis<br />
+              <span style="color: #6fa8dc">(2024)</span>
+            </figcaption>
+          </figure>
+          <div class="vl"></div>
+          <figure>
+            <img src="images/recursos/ratatouille.png" alt="joker2" />
+            <figcaption>
+              Ratatouille<br />
+              <span style="color: #6fa8dc">(2007)</span>
+            </figcaption>
+          </figure>
+          <div class="vl"></div>
+          <figure>
+            <img src="images/recursos/transformers.png" alt="joker2" />
+            <figcaption>
+              Transformers ONE<br />
+              <span style="color: #6fa8dc">(2024)</span>
+            </figcaption>
+          </figure>
+          <div class="vl"></div>
+          <figure>
+            <img src="images/recursos/wildrobot.png" alt="joker2" />
+            <figcaption>
+              The Wild Robot<br />
+              <span style="color: #6fa8dc">(2024)</span>
+            </figcaption>
+          </figure>
         </div>
+      </div>
     </section>
 
     <footer>
-        <ul>
-            <li><a href="#">Sobre Nosotros</a></li>
-            <li><a href="#">Apps</a></li>
-            <li><a href="#">Ayuda</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
-        <p>Pagina creada por Jose Manuel Prados Morente</p>
-        <ul>
-            <li><a href="#"><img src="images/Iconos/x.png" alt="Icono X"></a></li>
-            <li><a href="#"><img src="images/Iconos/facebook.png" alt="Facebook"></a></li>
-            <li><a href="#"><img src="images/Iconos/tik-tok.png" alt="TikTok"></a></li>
-            <li><a href="#"><img src="images/Iconos/instagram.png" alt="Instagram"></a></li>
-        </ul>
+      <ul>
+        <li><a href="#">Sobre Nosotros</a></li>
+        <li><a href="#">Apps</a></li>
+        <li><a href="#">Ayuda</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+      <p>Pagina creada por Jose Manuel Prados Morente</p>
+      <ul>
+        <li>
+          <a href="#"><img src="images/Iconos/x.png" alt="Icono X" /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="images/Iconos/facebook.png" alt="Facebook"
+          /></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/Iconos/tik-tok.png" alt="TikTok" /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="images/Iconos/instagram.png" alt="Instagram"
+          /></a>
+        </li>
+      </ul>
     </footer>
-</body>
-
+  </body>
 </html>
