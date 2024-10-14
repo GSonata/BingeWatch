@@ -8,16 +8,18 @@ body {
 }
 
 .headerMain {
-  height: 7, 5vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 8vh;
   width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: #242424;
-  -webkit-box-shadow: 4px 6px 23px -4px rgba(245, 245, 245, 1);
-  -moz-box-shadow: 4px 6px 23px -4px rgba(245, 245, 245, 1);
-  box-shadow: 4px 6px 23px -4px rgba(245, 245, 245, 1);
+  background-color: #242424c2;
+
 
   h2 {
     font-family: var(--main-font);
@@ -28,8 +30,6 @@ body {
 
   a {
     margin-right: 2rem;
-
-    button {
       padding: 0.5rem 1rem 0.5rem 1rem;
       background-color: #6AA84F;
       border: none;
@@ -39,23 +39,24 @@ body {
       color: white;
       font-family: var(--main-font);
       transition: 0.3s;
+      text-decoration: none;
     }
 
-    button:hover {
+    a:hover {
       border-bottom: 2px solid white;
       border-right: 2px solid white;
       background-color: #51803d;
       cursor: pointer;
     }
   }
-}
+
 
 .callAction {
 
   .background {
     position: relative;
     width: 100%;
-    height: 60vh;
+    min-height: 80vh;
     background-image: url('../images/recursos/movies.png');
     background-size: cover;
     background-position: center;
@@ -64,8 +65,8 @@ body {
 
   .overlay {
     width: 100%;
-    height: 100%;
-    background-color: rgba(179, 178, 178, 0.815);
+    min-height: 60vh;
+    background-color: rgba(48, 48, 48, 0.568);
     z-index: 1;
   }
 
@@ -74,12 +75,10 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    position: relative;
-    height: inherit;
+    min-height: 80vh;
     z-index: 1;
     text-align: center;
-    color: #000;
-    filter: none;
+    color: white;
 
     .ccText {
       display: flex;
@@ -121,7 +120,12 @@ body {
         color: white;
         font-family: var(--main-font);
         transition: 0.3s;
-        z-index: 4;
+        text-decoration: none;
+      }
+
+      .ccButton:hover{
+        background-color: red;
+        color: #5f94c5;
       }
     }
 
@@ -135,6 +139,8 @@ body {
 .lastMovies {
 
   background-color: #4d4d4d;
+  background: rgb(35,35,35);
+  background: linear-gradient(4deg, rgba(35,35,35,1) 62%, rgba(86,203,227,1) 100%);
   height: 600px;
 
   .vl {
@@ -143,17 +149,17 @@ body {
   }
 
   h1 {
-    background-color: #252525;
+    background-color: #5c5c5c;
     text-align: center;
     font-family: var(--main-font);
-    color: #6AA84F;
+    color: #5f94c5;
     font-size: 2rem;
     font-weight: 700;
     margin-top: 0;
     padding: 2rem;
-    -webkit-box-shadow: -2px 13px 5px -6px rgba(0, 0, 0, 1);
-    -moz-box-shadow: -2px 13px 5px -6px rgba(0, 0, 0, 1);
-    box-shadow: -2px 13px 5px -6px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: -2px 13px 5px -6px rgba(255, 255, 255, 0.308);
+    -moz-box-shadow: -2px 13px 5px -6px rgba(255, 255, 255, 0.308);
+    box-shadow: -2px 13px 5px -6px rgba(255, 255, 255, 0.308);
   }
 
   .movieGallery {
@@ -181,12 +187,13 @@ body {
         height: 300px;
         width: 200px;
         transition: 0.6s all;
-        box-sizing: border-box;
       }
 
       img:hover {
         height: 325px;
         width: 225px;
+        margin-left: -9px;
+        margin-right: -9px;
         -webkit-box-shadow: 10px 10px 5px -6px rgba(255, 255, 255, 0.56);
         -moz-box-shadow: 10px 10px 5px -6px rgba(255, 255, 255, 0.56);
         box-shadow: 10px 10px 5px -6px rgba(255, 255, 255, 0.56);
@@ -205,13 +212,8 @@ body {
   height: 60vh;
   background-color: #252525;
   color: white;
+  border-top: 2px solid #4d4d4d;
 
-  .introTitle{
-    width: 100%;
-    background-color: rgb(65, 65, 65);
-    border-bottom: 2px solid white;
-    padding-bottom: 1rem;
-  }
 
   .introText {
     font-family: var(--main-font);
@@ -247,7 +249,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 24rem;
+    height: 20rem;
     background-color: rgb(248, 248, 248);
     font-weight: 500;
     color: #929292;
