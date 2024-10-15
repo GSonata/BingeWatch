@@ -7,24 +7,36 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="containerLOGIN">
-    <div class="returnHome">
-      <img src="images/recursos/bx-arrow-to-left.svg" width="30" height="30" alt="returnArrow">
-      <p>Volver a Inicio</p>
-    </div>
-    <div class="loginContent">
-        <figure><img src="images/logo bw-blanco.png" alt="icono BW"></figure>
-        <div class="formLogin">
-          <form>
-          <label for="username">Correo Electrónico</label>
-          <input type="text" name="username" id="username">
-          <label for="password">Contraseña</label>
-          <input type="password" name="password" id="password">
-          <input type="submit" value="Iniciar Sesión">
-          </form>
-        </div>
+  <div class="contentLOGIN">
+    <header>
+      <a href="home.html"><img src="images/recursos/bx-arrow-to-left.svg" alt="returnArrow"></a>
+      <a href="home.html"><p>Volver a Inicio</p></a>
+    </header>
+
+    <main>
+      <div class="presentation">
+      <img src="images/logo bw-blanco.png" width="50%">
+      <h2>Binge<span style="color: #6fa8dc">Watch</span></h2>
+      <p>Un lugar, todas tus peliculas</p>
+      </div>
+      <div class="mainContent">
+      <form>
+        <label for="username">Usuario</label>
+        <hr>
+        <input type="text" id="username" name="username" placeholder="...">
+        <p class="sutil">¿Ha olvidado su usuario?</p>
+        <label for="password">Contraseña</label><br>
+        <hr>
+        <input type="text" id="password" name="password" placeholder="...">
+        <p class="sutil">¿Ha olvidado su contraseña?</p>
+        <input type="submit" value="Iniciar Sesion">
+      </form>
+      <p style="color:white">O inicie sesión de otra forma</p>
+      <a><button class="altLogin"><img src="images/iconos/google.png" width="8%"> Sesión con Google</button></a>
+      <a><button class="altLogin"><img src="images/iconos/apple.png" width="8%">Iniciar Sesión con Apple</button></a>
     </div>
     <figure><a href=""><img src="images/recursos/bxs-help-circle.svg" alt="contactPage" width="30" height="30" class="helpButton"></a></figure>
-    </div>
+    </main>
+  </div>
 </body>
 </html>

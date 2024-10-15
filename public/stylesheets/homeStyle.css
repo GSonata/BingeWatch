@@ -308,3 +308,46 @@
       }
     }
   }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    height: 6vh;
+    width: 100%;
+    background-color: #FFE599;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 3px solid #b4a167;
+  
+    p {
+      font-family: var(--main-font);
+      font-size: 0.7rem;
+    }
+  
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      list-style-type: none;
+  
+      a {
+        color: #000;
+        text-decoration: none;
+        font-weight: 700;
+      }
+  
+      a:hover {
+        color: #353535;
+      }
+  
+      li {
+        height: inherit;
+        margin: 0 10px;
+      }
+  
+      img {
+        height: 30px;
+        width: 30px;
+      }
+    }
+  }
