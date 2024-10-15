@@ -4,4 +4,5 @@
 :root{
     --main-font : "Montserrat", sans-serif;
     --secondary-font: "Merriweather", serif;
+    --height-cta: 90vh;
 }
