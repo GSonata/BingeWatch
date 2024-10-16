@@ -16,6 +16,7 @@ body {
   background: rgb(53,53,53);
   background: linear-gradient(189deg, rgba(53,53,53,1) 0%, rgba(56,56,56,1) 88%);
   font-family: var(--main-font);
+  height: 100%;
 }
 
 ::-webkit-scrollbar {
@@ -43,12 +44,13 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 87vh;
+  height: 80vh;
   gap: 2rem;
 
   .presentation{
     display: flex;
     flex-direction: column;
+    height: 30vh;
     align-items: center;
     font-family: var(--main-font);
     color: white;
@@ -71,13 +73,13 @@ main {
     justify-content: center;
     background-color: #525252;
     height: 35vh;
-    min-height: 25vh;
     width: 20%;
     padding: 5rem 2rem;
 
     form {
       padding-top: 3rem;
       padding: 10px 10px;
+      justify-content: left;
     }
 
     label {
@@ -115,7 +117,7 @@ main {
       color: white;
       padding: 10px 20px;
       transition: 0.5s all;
-      margin-left: 8rem;
+      justify-content: center;
     }
 
     input[type=submit]:hover{

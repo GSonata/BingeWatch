@@ -121,14 +121,17 @@
     }
   
     h1 {
-      background-color: #5c5c5c;
-      text-align: center;
+      background-color: #252525;
+      text-align: left;
       font-family: var(--main-font);
-      color: #5f94c5;
+      text-decoration: underline #6fa8dc;
+      color: white;
+      text-underline-position: under;
       font-size: 2rem;
-      font-weight: 700;
+      font-weight: 500;
       margin-top: 0;
       padding: 2rem;
+      padding-bottom: 10px;
       -webkit-box-shadow: -2px 13px 5px -6px rgba(255, 255, 255, 0.308);
       -moz-box-shadow: -2px 13px 5px -6px rgba(255, 255, 255, 0.308);
       box-shadow: -2px 13px 5px -6px rgba(255, 255, 255, 0.308);
@@ -162,8 +165,8 @@
         }
   
         img:hover {
-          height: 325px;
-          width: 225px;
+          height: 315px;
+          width: 215px;
           margin-left: -9px;
           margin-right: -9px;
           -webkit-box-shadow: 10px 10px 5px -6px rgba(255, 255, 255, 0.56);
