@@ -1,0 +1,137 @@
+@import url(vars.css);
+
+.contentLOGIN {
+    background: rgb(53,53,53);
+    background: linear-gradient(189deg, rgba(53,53,53,1) 0%, rgba(56,56,56,1) 88%);
+    font-family: var(--main-font);
+    height: 100%;
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    min-height: 9vh;
+    width: 100%;
+    gap: 1rem;
+  
+    a {
+      text-decoration: none;
+      color: white;
+      font-weight: 700;
+    }
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    gap: 2rem;
+  
+    .presentation{
+      display: flex;
+      flex-direction: column;
+      height: 30vh;
+      align-items: center;
+      font-family: var(--main-font);
+      color: white;
+  
+      p{
+        font-style: italic;
+      }
+    }
+  
+    h2{
+      font-size: 3rem;
+      margin:0;
+    }
+  
+  
+    .mainContent {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #525252;
+      height: 35vh;
+      width: 20%;
+      padding: 5rem 2rem;
+  
+      form {
+        padding-top: 3rem;
+        padding: 10px 10px;
+        justify-content: left;
+      }
+  
+      label {
+        color: rgb(111,168,220);
+        font-family: var(--main-font);
+        font-weight: 800;
+      }
+  
+      input {
+        min-width: 20vw;
+        padding: 5px;
+      }
+  
+      p.sutil{
+        margin-top: 0.2rem;
+        font-family: var(--secondary-font);
+        font-weight: 50;
+        font-size: 12px;
+        color: whitesmoke;
+        cursor: pointer;
+        transition: 0.4s all;
+      }
+  
+      p.sutil:hover{
+        color: rgb(111,168,220);
+      }
+  
+      input[type=submit]{
+        min-width: 2vw;
+        margin-top: 1rem;
+        font-family: var(--main-font);
+        font-weight: 700;
+        background-color: #6fa8dc;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        transition: 0.5s all;
+        justify-content: center;
+      }
+  
+      input[type=submit]:hover{
+        background-color: #5886b1;          
+        cursor: pointer;
+      }
+  
+      .altLogin{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: left;
+        width: 20rem;
+        padding: 10px 20px;
+        margin: 5px;
+        gap: 1rem;
+        font-family: var(--main-font);
+        font-weight: 500;
+      }
+    }
+  }
+  
+  .helpButton {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
