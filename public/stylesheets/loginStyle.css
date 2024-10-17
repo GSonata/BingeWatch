@@ -16,6 +16,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: left;
+    padding-left: 1vw;
     min-height: 9vh;
     width: 100%;
     gap: 1rem;
@@ -118,9 +119,10 @@
         flex-direction: row;
         align-items: center;
         justify-content: left;
-        width: 20rem;
+        width: 80%;
         padding: 10px 20px;
         margin: 5px;
+        margin-left: 1.8vw;
         gap: 1rem;
         font-family: var(--main-font);
         font-weight: 500;
