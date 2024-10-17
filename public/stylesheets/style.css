@@ -9,7 +9,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px var(--main-font);
   height: 100vh;
 }
 
@@ -56,52 +56,44 @@ body {
 
   h1{
     color: white;
+    font-size: 2rem;
   }
 
+  .contentAyuda {
+    display: flex;
+    width: 100vw;
+  }
   
-  .formularioAyuda{
-    margin-left: 1vw;
+  .column {
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    background-color: rgb(117, 113, 113);
-    width: 80%;
-    height: 100vh;
-    border: 3px solid #6fa8dc;
-    border-radius: 1%;
-    gap: 1vh;
+    align-items: center;
+    justify-content: start;
+    width: 50%;
   }
 
-  details{
+  #columnleft h3{
+    height: 5vh;
+    width: 100%;
+    background: rgb(60,60,60);
+    background: linear-gradient(110deg, rgba(60,60,60,1) 0%, rgba(82,82,82,1) 100%);
+  }
+
+  #columnright{
+    height: 5vh;
+    width: 100%;
+    background: rgb(60,60,60);
+background: linear-gradient(262deg, rgba(60,60,60,1) 0%, rgba(82,82,82,1) 100%);
+  }
+
+  h3{
     color: white;
-    margin-left: 1vw;
-    margin-top: 1vw;
-    margin-left: 0;
-    font-family: var(--main-font);
-    padding-left: 2vw;
-
-    summary{
-      font-size: 1.3vw;
-    }
-
-    p{
-      font-family: var(--secondary-font);
-      font-weight: 200;
-      background-color: rgb(150, 147, 147);
-      padding: 2vh 5vw;
-      line-height: 1.8;
-    }
-
+    font-size: 1.5rem;
   }
+} 
 
-  .barra{
-    width: 70%;
-    background-color: #6fa8dc;
-    height: 0.5%;
-    margin-left: vw;
-  }
 
-}
+
 
   
 
