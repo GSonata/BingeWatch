@@ -10,7 +10,7 @@ body {
   padding: 0;
   margin: 0;
   font: 14px var(--main-font);
-  height: 100vh;
+  height: 100%;
 }
 
 .contacto {
@@ -21,6 +21,7 @@ body {
   background-color: #232323;
   color: white;
   height: 10%;
+  border-bottom: 2px solid var(--main-blue);
 
   .return {
     display: flex;
@@ -47,7 +48,7 @@ body {
 }
 
 .mainContacto {
-  height: 90%;
+  height: 100%;
   background-color: #525252;
   display: flex;
   flex-direction: column;
@@ -76,7 +77,7 @@ body {
   #columnleft {
 
     background: rgb(60, 60, 60);
-    height: 100%;
+    height: 99%;
     border-top-right-radius: 10px;
 
     ul {
@@ -112,7 +113,7 @@ body {
   }
 
   #columnright {
-    height: 100%;
+    height: 90%;
     display: flex;
     align-items: center;
     color: white;
@@ -128,6 +129,7 @@ body {
       align-items: center;
       justify-content: left;
       width: 100%;
+      font-weight: 700;
 
       p {
         display: flex;
@@ -150,6 +152,7 @@ body {
         background-color: var(--main-blue);
         width: 15%;
         padding: 0.3rem 0.8rem;
+        margin-top: 2vh;
         border: 1px solid white;
         border-radius: 2px;
         font-family: var(--main-font);

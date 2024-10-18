@@ -1,5 +1,8 @@
 @import url(vars.css);
 
+.loginBODY{
+  background-color: rgb(53,53,53);
+}
 .contentLOGIN {
     background: rgb(53,53,53);
     background: linear-gradient(189deg, rgba(53,53,53,1) 0%, rgba(56,56,56,1) 88%);
@@ -17,7 +20,7 @@
     align-items: center;
     justify-content: left;
     padding-left: 1vw;
-    min-height: 9vh;
+    min-height: 10vh;
     width: 100%;
     gap: 1rem;
   
@@ -32,14 +35,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 80vh;
+    justify-content: space-evenly;
+    height: 90vh;
     gap: 2rem;
   
     .presentation{
       display: flex;
       flex-direction: column;
-      height: 30vh;
+      height: 30%;
       align-items: center;
       font-family: var(--main-font);
       color: white;
@@ -50,7 +53,7 @@
     }
   
     h2{
-      font-size: 3rem;
+      font-size: 2.5rem;
       margin:0;
     }
   
@@ -61,8 +64,9 @@
       align-items: center;
       justify-content: center;
       background-color: #525252;
-      height: 35vh;
-      width: 20%;
+      height: 40%;
+      max-width: 20%;
+      min-width: 20%;
       padding: 5rem 2rem;
   
       form {
@@ -70,14 +74,26 @@
         padding: 10px 10px;
         justify-content: left;
       }
+
+      .keep{
+        display: flex;
+        flex-direction: row;
+        color: white;
+      }
+
+      .keep:hover{
+        cursor: pointer;
+        color: var(--main-blue);
+      }
   
-      label {
+  
+      label:not(.keepLabel){
         color: rgb(111,168,220);
         font-family: var(--main-font);
         font-weight: 800;
       }
   
-      input {
+      input[type=text] {
         min-width: 20vw;
         padding: 5px;
       }
