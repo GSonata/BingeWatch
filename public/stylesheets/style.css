@@ -1,8 +1,10 @@
 @import url(vars.css);
 @import url(homeStyle.css);
 @import url(loginStyle.css);
+@import url(mainPage.css);
 
 html {
+  overflow:visible;
   scroll-behavior: smooth;
 }
 

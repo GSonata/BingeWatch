@@ -1,0 +1,27 @@
+[
+    {
+      "mail": "pepe",
+      "contraseña": "pepe123",
+      "pfp": "https://steamuserimages-a.akamaihd.net/ugc/270599410821126196/D0E02E3121E92470E60464B8D71378E999DF2768/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"
+    },
+    {
+      "mail": "juan",
+      "contraseña": "juan123",
+      "pfp": "https://external-preview.redd.it/9NQygRkE2FSy-NrjkYO1VPkrBmhK93KGnz8Y3T84HIc.jpg?width=640&crop=smart&auto=webp&s=43d993b867da6c2d146f4472dd24ef10ae2fe461"
+    },
+    {
+      "mail": "claudia",
+      "contraseña": "claudia123",
+      "pfp": "https://pbs.twimg.com/media/FT3hoLhXoAAksT8.jpg"
+    },
+    {
+      "mail": "sara",
+      "contraseña": "sara123",
+      "pfp": "https://openseauserdata.com/files/b9e77be8b1e520e32f11056648cde110.jpg"
+    },
+    {
+      "mail": "santiago",
+      "contraseña": "santiago123",
+      "pfp": "https://preview.redd.it/take-a-look-at-this-here-is-the-difference-between-the-v0-dij0r5bonekc1.png?width=420&format=png&auto=webp&s=5c2888e141ee18e32de7b8793be66a199c013c92"
+    }
+  ]

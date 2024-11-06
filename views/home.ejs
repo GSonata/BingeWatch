@@ -1,11 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="images/logo bw-blanco.png" />
-    <link rel="stylesheet" href="stylesheets/style.css" />
-    <title>BingeWatch</title>
+    <%- include('partials/head') %>
   </head>
 
   <body>
@@ -28,7 +24,7 @@
             </p>
             <div>
               <a href="#" class="ccButton">Registrarse</a>
-              <a href="login.html" class="ccButton">Iniciar Sesión</a>
+              <a href="/login" class="ccButton">Iniciar Sesión</a>
             </div>
           </div>
         </div>
@@ -124,31 +120,7 @@
     </section>
 
     <footer>
-      <ul>
-        <li><a href="#">Sobre Nosotros</a></li>
-        <li><a href="#">Apps</a></li>
-        <li><a href="contacto.html">Ayuda</a></li>
-        <li><a href="#">Trabaja con nosotros</a></li>
-      </ul>
-      <p>Pagina creada por Jose Manuel Prados Morente</p>
-      <ul>
-        <li>
-          <a href="#"><img src="images/Iconos/x.png" alt="Icono X" /></a>
-        </li>
-        <li>
-          <a href="#"
-            ><img src="images/Iconos/facebook.png" alt="Facebook"
-          /></a>
-        </li>
-        <li>
-          <a href="#"><img src="images/Iconos/tik-tok.png" alt="TikTok" /></a>
-        </li>
-        <li>
-          <a href="#"
-            ><img src="images/Iconos/instagram.png" alt="Instagram"
-          /></a>
-        </li>
-      </ul>
+        <%- include('partials/footer') %>
     </footer>
   </body>
 </html>

@@ -1,19 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="images/logo bw-blanco.png" />
-    <link rel="stylesheet" href="stylesheets/style.css" />
-    <title>Contacta con nosotros</title>
-</head>
-<body>
+  <head>
+    <%- include('partials/head') %>
+  </head>
+
+  <body>
     <header class="contacto">
         <div class="return">
             <img src="images/logo bw-blanco.png" alt="logo" width="10%">
             <p>Binge<span style="color: #6fa8dc">Watch</span></p>
-            <a href="login.html" class="goLogin">Iniciar Sesión</a>
-            <a href="home.html" style="font-size: 1rem;"> Volver al inicio </a>
+            <a href="/login" class="goLogin">Iniciar Sesión</a>
+            <a href="/" style="font-size: 1rem;"> Volver al inicio </a>
             </div>
             
         <p style="font-style: italic; margin-right: 3vw; font-size: 0.8vw;">Un lugar, todas tus peliculas</p>
@@ -57,5 +54,8 @@
         </div>
     </main>
 
-</body>
+    <footer>
+        <%- include('partials/footer') %>
+    </footer>
+  </body>
 </html>

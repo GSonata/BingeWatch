@@ -1,0 +1,88 @@
+@import url(vars.css);
+
+.mainHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    height: 10vh;
+    padding: 0 2rem;
+
+    h1 {
+        margin: 0;
+        font-size: 2.5em;
+      }
+
+    .headerRight {
+        margin-right: 50px;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        h2 {
+            margin: 0;
+            font-size: 2em;
+            margin-right: -5px;
+          }
+
+          img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+            transition: transform 0.3s ease, border 0.3s ease-in-out, margin-left 0.3s ease;
+            cursor: pointer;
+            border: 5px solid transparent; 
+        }
+        
+        img:hover {
+            margin-left: 5px;
+            border: 5px solid var(--main-blue);
+            transform: scale(1.05);  
+            
+        }
+    }
+      
+  }
+  
+  
+ 
+
+.mainContainer {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgba(48, 48, 48, 0.568);
+}
+
+.peliculaMain {
+
+    img {
+        width: 250px;
+        height: 400px;
+        object-fit: cover;
+        transition: transform 0.3s ease-in-out;
+
+    }
+
+    img:hover {
+        transform: translateY(-5px);
+        box-shadow: 0px 4px 5px -1px rgba(237,237,237,1);
+    }
+
+    figcaption {
+        color: white;
+        text-align: center;
+        align-items: center;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+
+    figcaption span {
+        font-weight: normal;
+        color: var(--main-blue);
+    }
+}
