@@ -18,7 +18,7 @@ router.get('/contacto', function(req, res, next) {
 
 router.get('/pelicula/:id',function(req,res){
   const targetMovie = funciones.getMovieByID(req.params.id)
-  res.send(targetMovie);
+  res.render("moviePage",{head_title: "BW - " + targetMovie.title + "." , movieItem: targetMovie});
 });
 
 //RUTAS DE LOGIN

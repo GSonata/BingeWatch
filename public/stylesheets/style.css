@@ -4,11 +4,12 @@
 @import url(mainPage.css);
 
 html {
-  overflow:visible;
+  overflow: visible;
   scroll-behavior: smooth;
 }
 
 body {
+  height: 90vh;
   padding: 0;
   margin: 0;
   font: 14px var(--main-font);
@@ -51,9 +52,9 @@ body {
 .mainContacto {
   background-color: #525252;
   display: flex;
+  height: inherit;
   flex-direction: column;
   align-items: center;
-  height: 90%;
   justify-content: start;
 
   h1 {
@@ -79,7 +80,7 @@ body {
   #columnleft {
 
     background: rgb(60, 60, 60);
-    height: 99%;
+    height: inherit;
     border-top-right-radius: 10px;
 
     ul {
