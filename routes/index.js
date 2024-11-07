@@ -3,7 +3,7 @@ var router = express.Router();
 
 var funciones = require("../data/data_provider.js");
 
-/* GET home page. */
+/* RUTAS PARA LA PAGINA GENERAL. */
 
 router.get('/', function(req, res, next) {
   res.render("home", {head_title: "BingeWatch"})
@@ -12,6 +12,13 @@ router.get('/', function(req, res, next) {
 
 router.get('/contacto', function(req, res, next) {
   res.render("contacto", {head_title: "BW - Contacta con nosotros"})
+});
+
+//RUTAS PARA LAS PELICULAS DE LA PAGINA PRINCIPAL
+
+router.get('/pelicula/:id',function(req,res){
+  const targetMovie = funciones.getMovieByID(req.params.id)
+  res.send(targetMovie);
 });
 
 //RUTAS DE LOGIN
