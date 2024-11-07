@@ -44,4 +44,10 @@ router.get('/mainPage', function(req, res, next) {
   else res.redirect("/login");
 });
 
+router.get('/terminateSession', function(req, res, next) {
+  req.session.login = false;
+  req.session.user = null;
+  res.redirect("/");
+});
+
 module.exports = router;

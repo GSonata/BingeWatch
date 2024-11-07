@@ -5,11 +5,26 @@
   </head>
 
   <body>
+
+    <div class="menuDesplegable">
+      <ul>
+        <li> Bienvenido, <%= userActivo.mail %> </li>
+        <li> Añadir Pelicula </li>
+
+      </ul>
+      <a href="/terminateSession"><ul class="closeSession">
+        <li><img src="images/Iconos/cerrarSesion.png" width="8%">Cerrar Sesión</li>
+      </ul>
+      </a>
+    </div>
+
+    <div class="cortina"></div>
+
     <header class="mainHeader">
       <h1>BingeWatch</h1>
       <div class="headerRight">
         <h2><%= userActivo.mail %></h2>
-        <img src="<%= userActivo.pfp %>" alt="<%= userActivo.mail %>">
+        <img src="<%= userActivo.pfp %>" id="imagenUsuario" alt="<%= userActivo.mail %>">
       </div>
     </header>
 
@@ -23,5 +38,9 @@
      <% }) %>  
     </div>
 
+    <footer>
+      <%- include('partials/footer') %>
+    </footer>
+    <script src="/scripts/script.js"> </script>
   </body>
 </html>

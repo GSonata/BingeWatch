@@ -1,15 +1,13 @@
 @import url(vars.css);
 
 .mainHeader {
-    width: 100%;
+    width: inherit;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #333;
     color: white;
-    height: 10vh;
-    padding: 0 2rem;
-
+    height: 10%;
     h1 {
         margin: 0;
         font-size: 2.5em;
@@ -56,6 +54,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     background-color: rgba(48, 48, 48, 0.568);
+    height: 90%;
+    width: 100%;
 }
 
 .peliculaMain {
@@ -85,4 +85,73 @@
         font-weight: normal;
         color: var(--main-blue);
     }
+}
+
+body{
+    position: relative;
+}
+
+.cortina{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;    
+    background-color: #3333337e;
+    display: none;
+}
+
+.showCortina {
+    display: flex;
+}
+
+
+.menuDesplegable{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 0;
+    right: -20%;
+    width: 20%;
+    height: 100vh;
+    z-index: 200;
+    transition: right 0.5s ease;
+    background-color: white;
+    box-shadow: -2px 0px 5px rgb(139, 139, 139);
+    background-color: #333;
+    color: white;
+
+    a{
+        text-decoration: none;
+    }
+
+    .closeSession{
+        background-color: rgb(165, 17, 17);
+        font-size: 1rem;
+        padding: 0.5rem 0rem;
+        color: white;
+        margin-bottom: 0;
+        text-align: center;
+        list-style-type: none;
+
+        li{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img{
+                margin-right: 5px;
+            }
+        }
+    }
+
+}
+
+.showMenu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100vh;
+    z-index: 200;
 }
