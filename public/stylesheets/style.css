@@ -2,6 +2,8 @@
 @import url(homeStyle.css);
 @import url(loginStyle.css);
 @import url(mainPage.css);
+@import url(moviePage.css);
+
 
 html {
   overflow: visible;

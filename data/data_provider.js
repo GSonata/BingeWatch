@@ -34,9 +34,35 @@ function getMovieByID(idMovie){
         return null
 }
 
+function getCollection(collection){
+    const uniqueMovies = new Map();
+    
+    collection.forEach(movie => {
+        if (!uniqueMovies.has(movie.idPelicula)) {
+            uniqueMovies.set(movie.idPelicula, getMovieByID(movie.idPelicula));
+        }
+    });
+    
+    return Array.from(uniqueMovies.values());
+}
+
+function getCopies(collection, idMovie) {
+    const arrayMovies = [];
+
+    collection.forEach((movie) => {
+        if (movie.idPelicula === idMovie) {
+            arrayMovies.push(movie);
+        }
+    });
+
+    return arrayMovies;
+}
+
 //exportamos todas las funciones
 module.exports = {
     iniciarSesion,
     getAllMovies,
+    getCollection,
+    getCopies,
     getMovieByID
 }

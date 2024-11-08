@@ -17,8 +17,9 @@ router.get('/contacto', function(req, res, next) {
 //RUTAS PARA LAS PELICULAS DE LA PAGINA PRINCIPAL
 
 router.get('/pelicula/:id',function(req,res){
-  const targetMovie = funciones.getMovieByID(req.params.id)
-  res.render("moviePage",{head_title: "BW - " + targetMovie.title + "." , movieItem: targetMovie});
+  const targetMovie = funciones.getMovieByID(req.params.id);
+  const copiesMovie = funciones.getCopies(userActivo.coleccion, targetMovie.id);
+  res.render("moviePage",{head_title: "BW - " + targetMovie.title + "." , movieItem: targetMovie, copiesArray: copiesMovie});
 });
 
 //RUTAS DE LOGIN
@@ -44,9 +45,10 @@ router.post("/login", function(req,res,next){
 });
 
 router.get('/mainPage', function(req, res, next) {
-  const allMovies = funciones.getAllMovies();
+
+  const moviesCollection = funciones.getCollection(userActivo.coleccion);
   if(req.session.login) {
-    res.render("mainPage", {head_title: "BW - Pagina Principal", userActivo: req.session.user, movieArray: allMovies})
+    res.render("mainPage", {head_title: "BW - Pagina Principal", userActivo: req.session.user, movieArray: moviesCollection})
   }
   else res.redirect("/login");
 });

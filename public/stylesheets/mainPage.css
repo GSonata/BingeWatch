@@ -1,5 +1,6 @@
 @import url(vars.css);
 
+
 .mainHeader {
     width: inherit;
     display: flex;
@@ -8,10 +9,12 @@
     background-color: #333;
     color: white;
     height: 10%;
+
     h1 {
         margin: 0;
         font-size: 2.5em;
       }
+
 
     .headerRight {
         margin-right: 50px;
@@ -44,22 +47,64 @@
     }
       
   }
-  
-  
- 
 
-.mainContainer {
+
+.mainContainer{
+    background-color: #4e4e4e;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-bottom: 4rem;
+
+}
+
+.menuSide{
+    background-color: rgb(238, 238, 240);
+    margin: 5rem 0rem 2rem 3rem;
+    width: 15%;
+    height: 50vh;
+    margin-right: 2rem;
+}
+
+.movieSide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2rem ;
+    width: 80%;
+
+    .barraSeparadora {
+        margin-left: 25rem;
+        width: 30%;         
+        height: 2px;         
+        background-color: white; 
+        margin: 20px 0;   
+    }
+
+    
+    h1{
+        font-size: 3rem;
+        margin-bottom: 0;
+        color: white;
+    }
+}
+
+.movieContainer {
     padding-top: 50px;
+    padding-left: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: rgba(48, 48, 48, 0.568);
     height: 90%;
     width: 100%;
 }
 
 .peliculaMain {
 
+    figure{
+        position: relative;
+        margin-bottom: 1rem;
+    }
     img {
         width: 250px;
         height: 400px;
@@ -74,11 +119,14 @@
     }
 
     figcaption {
+        position: relative;
+        bottom: 0;
         color: white;
         text-align: center;
         align-items: center;
         margin-top: 10px;
         font-weight: bold;
+        font-size: 0.9rem;
     }
 
     figcaption span {
