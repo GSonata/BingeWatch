@@ -6,6 +6,7 @@
 html {
   overflow: visible;
   scroll-behavior: smooth;
+  height: 100vh;
 }
 
 body {

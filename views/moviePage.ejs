@@ -5,7 +5,7 @@
   <%- include("partials/head") %>
 </head>
 
-<body>
+<body class="moviePageBody">
   <div class="menuDesplegable">
     <ul>
       <li> Bienvenido, <%= userActivo.mail %> </li>
@@ -31,9 +31,9 @@
   <img src="<%= movieItem.img %>" alt="<%= movieItem.title %>">
   <p>
   <h2><%= movieItem.title %> (<%= movieItem.year %>)</h2>
-
   </p>
   <p>Genero: <%= movieItem.genre %></p>
+  <p>Summary: <%= movieItem.summary %></p>
   <p>
     <% movieItem.actors.forEach(actor => { %>
     <button class="actorButton"><%= actor %></button>

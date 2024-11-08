@@ -4,7 +4,7 @@
     "img": "https://m.media-amazon.com/images/I/51EG732BV3L._AC_.jpg",
     "title": "The Matrix",
     "year": 1999,
-    "summary": "A hacker discovers the shocking truth about reality and his role in the war against its controllers.",
+    "summary": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
     "actors": ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss"],
     "genre": "Sci-Fi, Action"
   },
@@ -13,7 +13,7 @@
     "img": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg",
     "title": "Inception",
     "year": 2010,
-    "summary": "A thief who enters people's dreams is given a chance to have his past crimes erased by planting an idea into a target's subconscious.",
+    "summary": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: “inception”, the implantation of another person’s idea into a target’s subconscious..",
     "actors": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"],
     "genre": "Sci-Fi, Action, Thriller"
   },
@@ -22,7 +22,7 @@
     "img": "https://static.posters.cz/image/750/posters/jurassic-park-i75969.jpg",
     "title": "Jurassic Park",
     "year": 1993,
-    "summary": "During a preview tour, a theme park filled with cloned dinosaurs suffers a major power breakdown that allows its creatures to run free.",
+    "summary": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.",
     "actors": ["Sam Neill", "Laura Dern", "Jeff Goldblum"],
     "genre": "Adventure, Sci-Fi, Thriller"
   },
@@ -31,7 +31,7 @@
     "img": "https://i.ebayimg.com/images/g/A8sAAOSwMIphZOs6/s-l1200.jpg",
     "title": "Forrest Gump",
     "year": 1994,
-    "summary": "The story of a man with a low IQ who accomplishes great things in life, encountering historical events and figures along the way.",
+    "summary": "A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him.",
     "actors": ["Tom Hanks", "Robin Wright", "Gary Sinise"],
     "genre": "Drama, Romance"
   },
@@ -40,7 +40,7 @@
     "img": "https://m.media-amazon.com/images/I/51NiGlapXlL._AC_.jpg",
     "title": "The Shawshank Redemption",
     "year": 1994,
-    "summary": "Two imprisoned men bond over several years, finding solace and eventual redemption through acts of common decency.",
+    "summary": "Imprisoned in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates – including an older prisoner named Red – for his integrity and unquenchable sense of hope.",
     "actors": ["Tim Robbins", "Morgan Freeman", "Bob Gunton"],
     "genre": "Drama"
   },
@@ -49,7 +49,7 @@
     "img": "https://m.media-amazon.com/images/I/510L5ypQBdL._AC_UF894,1000_QL80_.jpg",
     "title": "The Godfather",
     "year": 1972,
-    "summary": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+    "summary": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
     "actors": ["Marlon Brando", "Al Pacino", "James Caan"],
     "genre": "Crime, Drama"
   },
@@ -58,7 +58,7 @@
     "img": "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_.jpg",
     "title": "Fight Club",
     "year": 1999,
-    "summary": "An insomniac office worker forms an underground fight club with a soap salesman.",
+    "summary": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground “fight clubs” forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
     "actors": ["Brad Pitt", "Edward Norton", "Helena Bonham Carter"],
     "genre": "Drama, Thriller"
   },
@@ -67,7 +67,7 @@
     "img": "https://m.media-amazon.com/images/M/MV5BYTViYTE3ZGQtNDBlMC00ZTAyLTkyODMtZGRiZDg0MjA2YThkXkEyXkFqcGc@._V1_.jpg",
     "title": "Pulp Fiction",
     "year": 1994,
-    "summary": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+    "summary": "A burger-loving hit man, his philosophical partner, a drug-addled gangster’s moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
     "actors": ["John Travolta", "Uma Thurman", "Samuel L. Jackson"],
     "genre": "Crime, Drama"
   },
@@ -76,7 +76,7 @@
     "img": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_FMjpg_UX1000_.jpg",
     "title": "The Dark Knight",
     "year": 2008,
-    "summary": "Batman faces the Joker, a criminal mastermind who wants to plunge Gotham City into anarchy.",
+    "summary": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
     "actors": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
     "genre": "Action, Crime, Drama"
   },
@@ -85,7 +85,7 @@
     "img": "https://m.media-amazon.com/images/M/MV5BZGRiZDZhZjItM2M3ZC00Y2IyLTk3Y2MtMWY5YjliNDFkZTJlXkEyXkFqcGc@._V1_.jpg",
     "title": "The Lion King",
     "year": 1994,
-    "summary": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to rule the kingdom.",
+    "summary": "Taking inspiration from Shakespeare’s Hamlet, a young lion prince grows up in exile after his father is killed by his villainous uncle, and returns years later to reclaim his throne.",
     "actors": ["Matthew Broderick", "James Earl Jones", "Jeremy Irons"],
     "genre": "Animation, Adventure, Drama"
   }
