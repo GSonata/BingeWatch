@@ -4,3 +4,8 @@ document.getElementById("imagenUsuario").addEventListener("click", ()=>{
     document.querySelector(".menuDesplegable").classList.add("showMenu");
 })
 
+document.querySelector(".cortina").addEventListener("click", ()=>{
+    document.querySelector(".cortina").classList.remove("showCortina");
+    document.querySelector(".menuDesplegable").classList.remove("showMenu");
+})
+
