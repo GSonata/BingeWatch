@@ -23,9 +23,11 @@ router.get('/contactoIn', function(req, res, next) {
 //RUTAS PARA LAS PELICULAS DE LA PAGINA PRINCIPAL
 
 router.get('/pelicula/:id',function(req,res){
+  if(req.session.login){
   const targetMovie = funciones.getMovieByID(req.params.id);
   const copiesMovie = funciones.getCopies(userActivo.coleccion, targetMovie.id);
   res.render("moviePage",{head_title: "BW - " + targetMovie.title + "." , movieItem: targetMovie, copiesArray: copiesMovie});
+}else res.redirect("/login");
 });
 
 //RUTAS DE LOGIN
