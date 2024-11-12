@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 [
   {
     "mail": "pepe",
@@ -72,21 +79,6 @@
       { "idCopy": 6,"idPelicula": 6, "tipo": "VHS", "estado": "Bueno" },
       { "idCopy": 7,"idPelicula": 7, "tipo": "BluRay", "estado": "Regular" },
       { "idCopy": 8,"idPelicula": 8, "tipo": "DVD", "estado": "Malo" }
-    ]
-  },
-  {
-    "mail": "padrinoFan",
-    "contraseña": "padrinoFan123",
-    "pfp": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/07/padrino-3096022.jpg?tf=3840x",
-    "coleccion": [
-      { "idCopy": 1,"idPelicula": 6, "tipo": "BluRay", "estado": "Excelente" },
-      { "idCopy": 2,"idPelicula": 6, "tipo": "DVD", "estado": "Bueno" },
-      { "idCopy": 3,"idPelicula": 6, "tipo": "VHS", "estado": "Malo" },
-      { "idCopy": 4,"idPelicula": 6, "tipo": "BluRay", "estado": "Regular" },
-      { "idCopy": 5,"idPelicula": 6, "tipo": "DVD", "estado": "Excelente" },
-      { "idCopy": 6,"idPelicula": 6, "tipo": "VHS", "estado": "Bueno" },
-      { "idCopy": 7,"idPelicula": 6, "tipo": "BluRay", "estado": "Regular" },
-      { "idCopy": 8,"idPelicula": 6, "tipo": "DVD", "estado": "Malo" }
     ]
   }
 ]

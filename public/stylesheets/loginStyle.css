@@ -107,7 +107,7 @@ main {
       font-weight: 800;
     }
 
-    input[type=text] {
+    input[type=text], input[type=password] {
       min-width: 20vw;
       padding: 10px;
       background-color: rgb(236, 235, 235);
@@ -115,7 +115,7 @@ main {
       transition: 0.5s all;
     }
 
-    input[type=text]:focus {
+    input[type=text]:focus,  input[type=password]:focus {
       outline: none;
       border: 3px solid var(--main-blue);
       background-color: white;
@@ -159,7 +159,7 @@ main {
       align-items: center;
       justify-content: left;
       width: 80%;
-      padding: 10px 20px;
+      padding: 5px 20px;
       margin: 5px;
       margin-left: 1.8vw;
       gap: 1rem;

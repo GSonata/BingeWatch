@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('partials/head') %>
+  </head>
+
+  <body class="contactoBody">
+    <header class="contacto">
+        <div class="return">
+            <img src="images/logo bw-blanco.png" alt="logo" width="10%">
+            <p>Binge<span style="color: #6fa8dc">Watch</span></p>
+            <a href="/mainPage" class="goLogin">Volver a mi colección</a>
+            </div>
+            
+        <p style="font-style: italic; margin-right: 3vw; font-size: 0.8vw;">Un lugar, todas tus peliculas</p>
+    </header>
+    <main class="mainContacto">
+        <h1>¿Necesitas ayuda?</h1>
+        <div class="contentAyuda">
+            <div class="column" id="columnleft">
+              <h3>Preguntas Frecuentes</h3>
+              <ul>
+                <li><h4>He olvidado mi contraseña / mi nombre de usuario</h4></li>
+                <li><p>Si ha olvidado su contraseña o nombre de usuario, puede seguir estos pasos para recuperarlos. Primero, haga clic en el enlace <a href="">"Olvidé mi contraseña"</a> o <a href="">"¿Olvidó su nombre de usuario?"</a> en la página de inicio de sesión. Luego, se le pedirá que ingrese su dirección de correo electrónico o nombre de usuario asociado a su cuenta. 
+                  Le enviaremos un correo electrónico con instrucciones sobre cómo restablecer su contraseña o recuperar su nombre de usuario lo antes posible.</p></li>
+                <li><hr></li>
+                <li><h4>Una película ha desaparecido de mi colección</h4></li>
+                <li><p>Primero, asegúrese de que la película no se haya movido a otra carpeta o sección de su colección. También puede utilizar la función de búsqueda para localizar la película por título o género. Si aún no puede encontrarla, es posible que haya habido un error técnico. Por favor, póngase en contacto con nuestro servicio de atención al cliente para obtener ayuda.</p></li>
+                <li><hr></li>
+                <li><h4>La película que busco no aparece</h4></li>
+                <li><p>Si no puede encontrar la película que está buscando en nuestra base de datos, es posible que la película no esté disponible en nuestro servicio o que haya habido un error de búsqueda. Le recomendamos verificar la ortografía del título de la película y asegurarse de que está utilizando los filtros de búsqueda correctos. 
+                  Si aún no puede encontrar la película, puede ponerse en contacto con nuestro servicio de atención al cliente para solicitar ayuda adicional.</p></li>
+              </ul>
+              </p>
+            </div>
+            <div class="column" id="columnright">
+              <h3>O pregunta directamente</h3>
+              <p style="font-style: italic; font-size: 0.7rem;" >*Su correo será respondido en aproximadamente 2 a 3 días habiles, por favor tenga paciencia</p>
+              <form>
+                <p>
+                  <label for="">Correo: </label>
+                  <input type="text" id="mailUser" name="mailUser">
+                </p>
+                <p>
+                  <label for="">Asunto: </label>
+                  <input type="text" id="mailUser" name="mailUser">
+                </p>
+                <p>¿Que es lo que le pasa?</p>
+                <textarea placeholder=""> </textarea>
+                <input type="submit" value="Enviar">
+              </form>
+            </div>
+        </div>
+    </main>
+
+  </body>
+</html>

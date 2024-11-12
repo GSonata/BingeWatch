@@ -6,12 +6,18 @@ var funciones = require("../data/data_provider.js");
 /* RUTAS PARA LA PAGINA GENERAL. */
 
 router.get('/', function(req, res, next) {
-  res.render("home", {head_title: "BingeWatch"})
+  if(req.session.login){
+    res.redirect("/mainPage");
+  }else res.render("home", {head_title: "BingeWatch"})
 });
 
 
 router.get('/contacto', function(req, res, next) {
   res.render("contacto", {head_title: "BW - Contacta con nosotros"})
+});
+
+router.get('/contactoIn', function(req, res, next) {
+  res.render("contactoIn", {head_title: "BW - Contacta con nosotros", NombreUser: userActivo.mail})
 });
 
 //RUTAS PARA LAS PELICULAS DE LA PAGINA PRINCIPAL
@@ -25,7 +31,9 @@ router.get('/pelicula/:id',function(req,res){
 //RUTAS DE LOGIN
 
 router.get('/login', function(req, res, next) {
-  res.render("login", {head_title: "BW - Iniciar Sesión"})
+  if(req.session.login){
+    res.redirect("/mainPage");
+  }else res.render("login", {head_title: "BW - Iniciar Sesión"})
 });
 
 router.post("/login", function(req,res,next){
@@ -41,7 +49,9 @@ router.post("/login", function(req,res,next){
       req.session.login=true;
       req.session.user= userActivo;
       res.redirect("/mainPage");
-    }else res.redirect("/login");
+    }else {
+      res.redirect("/login")
+    };
 });
 
 router.get('/mainPage', function(req, res, next) {

@@ -7,40 +7,41 @@
 
 <body class="mainBody">
 
-<header class="mainHeader">
-  <%- include("partials/header") %>
-</header>
+  <div class="cortina"></div>
 
-<%- include("partials/desplegable") %>
+  <header class="mainHeader">
+    <%- include("partials/header") %>
+  </header>
 
-<div class="mainContainer">
-  
-  <div class="menuSide">
-    <input type="text" id="search-bar" placeholder="Buscar en la colección...">
+  <%- include("partials/desplegable") %>
 
-    <p>Filtrar por géneros: </p>
-    <div class="button-group">
-      <button>Acción</button>
-      <button>Drama</button>
-      <button>Comedia</button>
+  <div class="mainContainer">
+
+    <div class="menuSide">
+      <input type="text" id="search-bar" placeholder="Buscar en la colección...">
+
+      <p>Filtrar por géneros: </p>
+      <div class="button-group">
+        <button>Acción</button>
+        <button>Drama</button>
+        <button>Comedia</button>
+      </div>
+      <button class="reset-button">Reset</button>
+
     </div>
-    <button class="reset-button">Reset</button>
-
-  </div>
-  <div class="movieSide">
-    <h1>Tus peliculas</h1>
-
-    <div class="collectionContainer">
-      <% movieArray.forEach(item => { %>
-      <figure class="peliculaMain">
-        <a href="/pelicula/<%= item.id %>" id="<%= item.id %>"><img src="<%= item.img %>" alt="<%= item.title %>"></a>
-        <figcaption><%= item.title %> <span>(<%=item.year %>)</span></figcaption>
-      </figure>
-      <% }) %>
+    <div class="movieSide">
+      <h1>Tus peliculas</h1>
+      <div class="collectionContainer">
+        <% movieArray.forEach(item => { %>
+        <figure class="peliculaMain">
+          <a href="/pelicula/<%= item.id %>" id="<%= item.id %>"><img src="<%= item.img %>" alt="<%= item.title %>"></a>
+          <figcaption><%= item.title %> <span>(<%=item.year %>)</span></figcaption>
+        </figure>
+        <% }) %>
+      </div>
     </div>
   </div>
-</div>
-<script src="/scripts/script.js"> </script>
+  <script src="/scripts/script.js"> </script>
 </body>
 
 </html>

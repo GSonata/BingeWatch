@@ -3,12 +3,12 @@
 @import url(loginStyle.css);
 @import url(mainPage.css);
 @import url(moviePage.css);
+@import url(inHeader.css);
 
 
 html {
   overflow: visible;
   scroll-behavior: smooth;
-  height: 100vh;
 }
 
 body {

@@ -1,57 +1,9 @@
 @import url(vars.css);
 
-
-.mainHeader {
-    width: inherit;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    color: white;
-    height: 10%;
-    border-bottom: 3px solid #3a3a3a;
-    -webkit-box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75);
-    
-
-    h1 {
-        margin: 0;
-        font-size: 2.5em;
-    }
-
-
-    .headerRight {
-        margin-right: 50px;
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-
-        h2 {
-            margin: 0;
-            font-size: 2em;
-            margin-right: -5px;
-        }
-
-        img {
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            object-fit: cover;
-            transition: transform 0.3s ease, border 0.3s ease-in-out, margin-left 0.3s ease;
-            cursor: pointer;
-            border: 5px solid transparent;
-        }
-
-        img:hover {
-            margin-left: 5px;
-            border: 5px solid var(--main-blue);
-            transform: scale(1.05);
-
-        }
-    }
-
+.mainBody{
+    height: 100%;
 }
+
 
 
 .mainContainer {
@@ -147,7 +99,7 @@
 .cortina {
     position: absolute;
     top: 0;
-    height: 100vh;
+    height: inherit;
     width: 100%;
     background-color: #3333337e;
     display: none;
@@ -288,7 +240,8 @@
     width: 250px;
     height: 200px;
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: #575656;
+    color: white;
     border-radius: 8px;
     overflow-y: auto;
 }
@@ -310,7 +263,7 @@
 
 .button-group button {
     padding: 8px 12px;
-    background-color: #4CAF50;
+    background-color: var(--main-blue);
     color: white;
     border: none;
     border-radius: 4px;
@@ -319,7 +272,7 @@
 }
 
 .button-group button:hover {
-    background-color: #45a049;
+    background-color: #35619b;
 }
 
 .reset-button {
